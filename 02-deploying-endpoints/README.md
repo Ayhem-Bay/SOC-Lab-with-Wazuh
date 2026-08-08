@@ -99,11 +99,12 @@ service restart)*
 ## 📸 Screenshots
 | Step | Screenshot |
 |------|------------|
-| Windows agent installation | ![agent-install-win](./screenshots/01-agent-install-windows.png) |
-| Ubuntu agent installation | ![agent-install-ubuntu](./screenshots/02-agent-install-ubuntu.png) |
-| Both agents active on dashboard | ![agents-active](./screenshots/03-agents-active.png) |
-| Sysmon installed & running | ![sysmon-running](./screenshots/04-sysmon-running.png) |
-| Sysmon events in Wazuh | ![sysmon-events](./screenshots/05-sysmon-events-dashboard.png) |
+| Windows agent installation | <img src="https://cdn.phototourl.com/free/2026-08-08-82cce890-e1ee-407d-8619-c8fdb133c3b8.png"/> |
+| Ubuntu agent installation | <img src="https://cdn.phototourl.com/free/2026-08-08-06258fa9-cf1c-4134-9e3f-0813b67a0bda.png"/> |
+| Both agents active on dashboard | <img src="https://cdn.phototourl.com/free/2026-08-08-11d2d30f-58a3-41f9-aa1e-d7cf42d6c20a.png"/> |
+| Sysmon installed & running on Windows | <img src="https://cdn.phototourl.com/free/2026-08-08-26fda1f5-46c8-469c-a317-34e2024de308.png"/> |
+| Sysmon installed & running on Ubuntu | <img src="https://cdn.phototourl.com/free/2026-08-08-d0ba3e32-768c-49de-80b9-17eda4d7b7db.png"/> |
+| Sysmon events in Wazuh | <img src="https://cdn.phototourl.com/free/2026-08-08-713f8ed7-a457-4abe-a60a-98fc595ae2f7.png"/> |
 
 ## ✅ Outcome
 Windows 10 and Ubuntu endpoints successfully enrolled as Wazuh agents. 

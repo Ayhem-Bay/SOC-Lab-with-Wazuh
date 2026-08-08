@@ -22,7 +22,7 @@ detection and analysis.
   registers directly on install:
 ```powershell
   Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.x.x-1.msi -OutFile $env:tmp\wazuh-agent.msi
-  msiexec.exe /i $env:tmp\wazuh-agent.msi /q WAZUH_MANAGER='10.0.0.3'
+  msiexec.exe /i $env:tmp\wazuh-agent.msi /q WAZUH_MANAGER='10.0.0.7'
 ```
 
 ### 2. Start the Wazuh Agent Service

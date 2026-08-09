@@ -20,7 +20,7 @@ before moving into detection and analysis.
 ### 1. Generate Activity on the Windows 10 Endpoint
 - Performed simple, everyday actions to produce Sysmon/Windows Event 
   Log telemetry:
-  - Opened and closed applications (e.g. `cmd.exe`, `notepad.exe`)
+  - Opened and closed applications  `cmd.exe`
   - Logged out and back in to generate authentication events
   - Ran a few basic commands in PowerShell/CMD
 - These actions generate process creation (Event ID 1), network 
@@ -29,10 +29,11 @@ before moving into detection and analysis.
 ### 2. Generate Activity on the Ubuntu Endpoint
 - Performed basic actions to produce syslog/auth telemetry:
 ```bash
-  sudo apt update
+  ip a
   whoami
-  su - <another_user>
+  sudo su
 ```
+- Performed SSH Failed login attemps.
 - These generate authentication logs, sudo usage logs, and system logs 
   visible under `/var/log/auth.log` and `/var/log/syslog`
 
@@ -49,7 +50,7 @@ before moving into detection and analysis.
 
 ### 4. Read and Interpret Sysmon Events (Windows)
 - Located Event ID 1 (Process Creation) entries generated from opening 
-  `cmd.exe` / `notepad.exe`
+  `cmd.exe` 
 - Reviewed key fields:
   - Parent process
   - Command line
@@ -78,10 +79,11 @@ before moving into detection and analysis.
 |------|------------|
 | Actions Performed on Windows | <img src="https://cdn.phototourl.com/free/2026-08-09-320acde9-8562-4565-a34f-029dc6b90036.png"/> |
 | Activity generated on Windows | <img src="https://cdn.phototourl.com/free/2026-08-09-384e4da0-ce8a-4f9b-9ac6-1ba48ff3a3ef.png"/> <img src="https://cdn.phototourl.com/free/2026-08-09-2cfb7f89-e16f-4b1c-b30c-21fe4a852780.png"/> |
-| Activity generated on Ubuntu | ![ubuntu-activity](./screenshots/02-ubuntu-activity.png) |
-| Threat Hunting module overview | ![threat-hunting](./screenshots/03-threat-hunting-overview.png) |
-| Sysmon event detail (Windows) | ![sysmon-event](./screenshots/04-sysmon-event-detail.png) |
-| Syslog/auth event detail (Ubuntu) | ![syslog-event](./screenshots/05-syslog-event-detail.png) |
+| Activity performed on Ubuntu | <img src="https://cdn.phototourl.com/free/2026-08-09-26da42d2-147b-42a1-8e32-e34ee2d0f1c2.png"/> |
+| Activity generated on Ubuntu | <img src="https://cdn.phototourl.com/free/2026-08-09-93b5709f-bbd3-4e45-8367-77eca1336d91.png"/> |
+| Threat Hunting module overview | <img src="https://cdn.phototourl.com/free/2026-08-09-6ff17e71-dfe2-4dc7-b2a0-0ba0d00edaec.png"/> |
+| Sysmon event detail (Windows) | <img src="https://cdn.phototourl.com/free/2026-08-09-3e6b7a48-8345-409f-9e1d-caa32d600a2f.png"/> |
+| Syslog/auth event detail (Ubuntu) | <img src="https://cdn.phototourl.com/free/2026-08-09-38352eec-c77f-495e-b0db-d4f948272ccf.png"/> |
 
 ## ✅ Outcome
 Successfully generated telemetry on both endpoints and confirmed it was 

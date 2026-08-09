@@ -76,7 +76,8 @@ before moving into detection and analysis.
 ## 📸 Screenshots
 | Step | Screenshot |
 |------|------------|
-| Activity generated on Windows | ![win-activity](./screenshots/01-windows-activity.png) |
+| Actions Performed on Windows | <img src="https://cdn.phototourl.com/free/2026-08-09-320acde9-8562-4565-a34f-029dc6b90036.png"/> |
+| Activity generated on Windows | <img src="https://cdn.phototourl.com/free/2026-08-09-384e4da0-ce8a-4f9b-9ac6-1ba48ff3a3ef.png"/> <img src="https://cdn.phototourl.com/free/2026-08-09-2cfb7f89-e16f-4b1c-b30c-21fe4a852780.png"/> |
 | Activity generated on Ubuntu | ![ubuntu-activity](./screenshots/02-ubuntu-activity.png) |
 | Threat Hunting module overview | ![threat-hunting](./screenshots/03-threat-hunting-overview.png) |
 | Sysmon event detail (Windows) | ![sysmon-event](./screenshots/04-sysmon-event-detail.png) |

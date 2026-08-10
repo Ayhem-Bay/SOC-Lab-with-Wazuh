@@ -92,4 +92,4 @@ navigating raw events, understanding key log fields, and how rule
 matching works — laying the groundwork for simulating attacks and 
 writing custom detection rules in the next phases.
 
-➡️ Next: [Phase 04 - Simulating Attacks](../04-simulating-attacks/)
+➡️ Next: [Phase 04 - Build SOC Dashboard](../04-build-soc-dashboard/)

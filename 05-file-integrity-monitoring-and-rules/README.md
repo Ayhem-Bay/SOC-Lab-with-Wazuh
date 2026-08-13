@@ -52,8 +52,10 @@
 ## 📸 Screenshots
 | Step | Screenshot |
 |------|------------|
-| FIM configuration in ossec.conf | <img src=""/> |
-| Integrity Monitoring dashboard | <img src=""/> |
+| FIM configuration in ossec.conf (Windows) | <img src="https://cdn.phototourl.com/free/2026-08-13-81d4d548-2f1a-40ac-b5c0-7ceb983df2d8.png"/> |
+| Integrity Monitoring dashboard | <img src="https://cdn.phototourl.com/free/2026-08-13-b3789829-576c-4901-af47-355c7219d1c0.png"/> <img src="https://cdn.phototourl.com/free/2026-08-13-4b97401e-fdf9-450d-adea-f9201eda9b42.png"/>|
+| FIM configuration in ossec.conf (Ubuntu) | <img src="https://cdn.phototourl.com/free/2026-08-13-1e6bfdc2-d8a3-4a16-926b-ef1f97f696a6.png"/> |
+| Integrity Monitoring dashboard (Ubuntu) | <img src="https://cdn.phototourl.com/free/2026-08-13-126cd373-90fb-41f4-9ade-1ee26d5873b2.png"/>|
 | Custom rule creation | <img src=""/> |
 | Custom alert triggered | <img src=""/> |
 

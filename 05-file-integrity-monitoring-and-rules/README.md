@@ -72,7 +72,7 @@
 | Integrity Monitoring dashboard (Ubuntu) | <img src="https://cdn.phototourl.com/free/2026-08-13-126cd373-90fb-41f4-9ade-1ee26d5873b2.png"/>|
 | Custom rule creation | <img src="https://cdn.phototourl.com/free/2026-08-13-a6ce3214-046f-4e46-a586-9b2d6b13723c.png"/> |
 | Guest account enabled (attacker simulation) |<img src="https://cdn.phototourl.com/free/2026-08-13-23a63dfa-41c2-4156-8acc-3d1a4e92d180.png"/> |
-| Custom alert triggered | <img src="https://cdn.phototourl.com/free/2026-08-13-67af75d8-fd04-4d39-a9c4-b98a4eed480a.png"/> |
+| Custom alert triggered | <img src="https://cdn.phototourl.com/free/2026-08-13-41c2ca3c-cb6c-48d5-b107-74233fd92c71.png"/> |
 
 ## ✅ Outcome
 Successfully configured File Integrity Monitoring on the endpoint and 

@@ -74,4 +74,4 @@ Windows failed logons, Windows account change activity, and Linux
 failed SSH attempts — giving a consolidated, analyst-style view of 
 authentication and account security across both endpoints.
 
-➡️ Next: [Phase 05 - TBD](../05-tbd/)
+➡️ Next: [Phase 05 - File Integrity Monitoring + Rules](../05-file-integrity-monitoring-and-rules/)

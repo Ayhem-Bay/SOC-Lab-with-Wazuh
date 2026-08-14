@@ -80,4 +80,4 @@ created a custom detection rule that triggered correctly on test file
 activity — demonstrating the ability to both monitor system changes and 
 extend Wazuh's default detection logic with custom rules.
 
-➡️ Next: [Phase 06 - TBD](../06-tbd/)
+➡️ Next: [Phase 06 - Active Response](../06-active-response/)

@@ -90,4 +90,4 @@ now automatically detects the pattern, raises a brute-force alert, and
 blocks the offending IP address via `iptables` — demonstrating a full 
 detect-and-respond capability rather than passive alerting alone.
 
-➡️ Next: [Phase 07 - TBD](../07-tbd/)
+➡️ Next: [Phase 07 - TBD](../07-the-investigation/)

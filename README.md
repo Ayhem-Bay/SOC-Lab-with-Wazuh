@@ -44,9 +44,11 @@ the process, commands used, challenges faced, and screenshots:
 | [01 - Deploying the Server](./01-deploying-the-server/) | Installing and configuring the Wazuh server |
 | [02 - Deploying Endpoints](./02-deploying-endpoints/) | Installing Wazuh agents on Windows/Linux |
 | [03 - Log Collection & Analysis](./03-log-collection-and-analysis/) | Configuring log sources and parsing |
-| [04 - Build SOC Dashboard](./04-simulating-attacks/) | Building SOC Dashboard using generated telemetry |
-| [05 - Detection Rules & Alerts](./05-detection-rules-and-alerts/) | Custom rules and alert tuning |
-| [06 - Dashboards & Reporting](./06-dashboards-and-reporting/) | Building visibility dashboards |
+| [04 - Build SOC Dashboard](./04-build-soc-dashboard/) | Building SOC Dashboard using generated telemetry |
+| [05 - Detection Rules & Alerts](./05-file-integrity-monitoring-and-rules/) | Custom rules and alert tuning |
+| [06 - Dashboards & Reporting](./06-active-response/) | Active Response phase |
+| [06 - The Investigation](./07-the-investigation/) | Fully investigation from start to the end of this lab |
+
 
 
 ## 📫 Contact

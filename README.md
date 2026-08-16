@@ -45,8 +45,8 @@ the process, commands used, challenges faced, and screenshots:
 | [02 - Deploying Endpoints](./02-deploying-endpoints/) | Installing Wazuh agents on Windows/Linux |
 | [03 - Log Collection & Analysis](./03-log-collection-and-analysis/) | Configuring log sources and parsing |
 | [04 - Build SOC Dashboard](./04-build-soc-dashboard/) | Building SOC Dashboard using generated telemetry |
-| [05 - Detection Rules & Alerts](./05-file-integrity-monitoring-and-rules/) | Custom rules and alert tuning |
-| [06 - Dashboards & Reporting](./06-active-response/) | Active Response phase |
+| [05 - File Integrity Monitoring + Rules](./05-file-integrity-monitoring-and-rules/) | Custom rules and alert tuning FIM |
+| [06 - Active Response](./06-active-response/) | Active Response phase |
 | [06 - The Investigation](./07-the-investigation/) | Fully investigation from start to the end of this lab |
 
 
